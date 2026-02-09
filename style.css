@@ -155,8 +155,8 @@ body, html {
 #screen2 .letter-img {
     position: absolute;
     top: 10%;      
-    right: 5%;    
-    height: 93vh;  
+    right: 10%;    
+    height: 105vh;  
 }
 
 #screen2 .col-right img:nth-child(3) { 
