@@ -122,8 +122,8 @@ body, html {
 #screen2 .notes-title { 
     position: absolute;
     top: 20%;      
-    left: 38%;     
-    font-size: 4vh; 
+    left: 45%;     
+    font-size: 7vh; 
     letter-spacing: 5px; 
 }
 
@@ -139,7 +139,7 @@ body, html {
 #screen2 .film-strip {
     position: absolute;
     top: 12%;     
-    left: 9%;     /* ← ANTES ERA -5% */
+    left: 15%;     /* ← ANTES ERA -5% */
     height: 75vh;  
     width: auto;
 }
