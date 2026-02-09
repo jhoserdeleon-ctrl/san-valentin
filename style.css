@@ -155,7 +155,7 @@ body, html {
 #screen2 .letter-img {
     position: absolute;
     top: 10%;      
-    right: 1%;    
+    right: -3%;    
     height: 80vh;  
 }
 
