@@ -122,11 +122,13 @@ body, html {
 #screen2 .notes-title {
     position: absolute;
     top: 18%;
-    left: 50%;
+    left: 52%;              /* ← muévelo a la izquierda */
     transform: translateX(-50%);
     font-size: 6vh;
     letter-spacing: 6px;
-    text-align: center;   /* ← CLAVE */
+    text-align: center;     /* ← centra “eres” y “mi:” */
+    line-height: 1.2;
+
 }
 
 #screen2 .title-img { 
@@ -141,7 +143,7 @@ body, html {
 #screen2 .film-strip {
     position: absolute;
     top: 12%;     
-    left: 4%;     /* ← ANTES ERA -5% */
+    left: 7%;     /* ← ANTES ERA -5% */
     height: 75vh;  
     width: auto;
 }
