@@ -1,0 +1,243 @@
+/* RESET TOTAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('1.png'), auto !important;
+
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    font-family: 'Patrick Hand', cursive, sans-serif; 
+    font-size: 1.2rem;
+    color: black; 
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#screen1 {
+    background-image: url('img/mi_fondo.png');
+    width: 70%;
+    margin-left: 15%;
+}
+
+.safe-zone-screen1 {
+    width: 80%; 
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-question {
+    font-size: 5vh; 
+    margin-bottom: 5vh;
+    margin-top: 800px !important;
+    letter-spacing: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 350px; 
+    margin-bottom: -5vh;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 5vh;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #52ca76;
+    background-color: #e6f8ec;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(82, 202, 118, 0.2); 
+}
+
+.btn:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(82, 202, 118, 0.4); 
+    background-color: #dcfce6; 
+}
+
+#noBtn {
+    padding: 10px 30px;
+    font-size: 5vh;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ff5044;
+    background-color: #fee4e0;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(255, 80, 68, 0.2); 
+}
+
+#noBtn:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(255, 80, 68, 0.4); 
+    background-color: #fddbd6; 
+}
+
+.bottom-heart {
+    height: 650px; 
+    width: auto;
+    margin-bottom: 550px !important;
+}
+
+
+#screen2 {
+    background-image: url('img/mi_fondo2.png');
+    width: 70%;
+    margin-left: 15%;
+    display: block; 
+    position: relative;
+}
+
+#screen2 .notes-title { 
+    position: absolute;
+    top: 20%;      
+    left: 38%;     
+    font-size: 4vh; 
+    letter-spacing: 5px; 
+}
+
+#screen2 .title-img { 
+    position: absolute;
+    top: 25%;      
+    right: 45%;    
+    height: 40vh;  
+    width: auto; 
+}
+
+#screen2 .film-strip {
+    position: absolute;
+    top: 12%;     
+    left: -5%;     
+    height: 75vh;  
+    width: auto;
+}
+
+
+#screen2 .col-right img:nth-child(1) { 
+    position: absolute;
+    top: 8%;       
+    right: 30%;     
+    height: 20vh;   
+    z-index: 1;
+
+}
+
+#screen2 .letter-img {
+    position: absolute;
+    top: 10%;      
+    right: 1%;    
+    height: 80vh;  
+}
+
+#screen2 .col-right img:nth-child(3) { 
+    position: absolute;
+    top: 68%;       
+    right: 35%;     
+    height: 25vh;   
+}
+
+#screen2 .calendar-img {
+    position: absolute;
+    bottom: 10%;     
+    right: 47%;     
+    height: 35vh;   
+}
+
+.corazon {
+    position: absolute; 
+    z-index: 999;       
+    pointer-events: none; 
+}
+
+
+.c1 {
+    top: 20%;
+    left: 10%;
+    width: 150px;
+}
+
+.c2 {
+    top: 10%;
+    right: 10%; 
+    width: 120px;
+}
+
+.c3 {
+    bottom: 10%; 
+    left: 10%;
+    width: 150px;
+}
+
+.c4 {
+    bottom: 10%;
+    right: 10%;
+    width: 120px;
+}
+
+.c5 {
+    top: 50%;
+    left: 45%; 
+    width: 120px;
+}
+
+.c6 {
+    top: 15%;
+    left: 30%;
+    width: 150px;
+}
+
+.c7 {
+    top: 75%;
+    left: 28%;
+    width: 120px;
+}
+
+.c8 {
+    top: 15%;
+    right: 30%;
+    width: 75px;
+}
+
+.c9 {
+    bottom: 10%;
+    left: 65%;
+    width: 150px;
+}
+
+.c10 {
+    top: 40%;
+    right: 10%;
+    width: 150px;
+}
