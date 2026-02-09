@@ -119,12 +119,14 @@ body, html {
     position: relative;
 }
 
-#screen2 .notes-title { 
+#screen2 .notes-title {
     position: absolute;
-    top: 20%;      
-    left: 45%;     
-    font-size: 7vh; 
-    letter-spacing: 5px; 
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6vh;
+    letter-spacing: 6px;
+    text-align: center;   /* ← CLAVE */
 }
 
 #screen2 .title-img { 
