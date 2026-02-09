@@ -147,7 +147,7 @@ body, html {
 #screen2 .col-right img:nth-child(1) { 
     position: absolute;
     top: 8%;       
-    right: 30%;     
+    right: 35%;     
     height: 20vh;   
     z-index: 1;
 }
