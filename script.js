@@ -4,13 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const screen1 = document.getElementById('screen1');
     const screen2 = document.getElementById('screen2');
 
-    // Botón SÍ
+    // SÍ siempre funciona
     yesBtn.addEventListener('click', () => {
         screen1.classList.add('hidden');
         screen2.classList.remove('hidden');
     });
 
-    // Función para mover el botón NO
     function moveButton() {
         const maxX = window.innerWidth - noBtn.offsetWidth;
         const maxY = window.innerHeight - noBtn.offsetHeight;
@@ -21,15 +20,25 @@ document.addEventListener('DOMContentLoaded', () => {
         noBtn.style.position = 'fixed';
         noBtn.style.left = `${x}px`;
         noBtn.style.top = `${y}px`;
+
+        // 👇 CLAVE: evita que bloquee otros botones
+        noBtn.style.pointerEvents = 'none';
+
+        setTimeout(() => {
+            noBtn.style.pointerEvents = 'auto';
+        }, 300);
     }
 
-    // PC: cuando el mouse se acerca
+    // PC
     noBtn.addEventListener('mouseenter', moveButton);
 
-    // Celular: cuando intentas tocarlo
-    noBtn.addEventListener('touchstart', moveButton);
+    // Celular
+    noBtn.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        moveButton();
+    });
 
-    // Evitar que se pueda presionar
+    // Nunca permitir click real
     noBtn.addEventListener('click', (e) => {
         e.preventDefault();
         moveButton();
