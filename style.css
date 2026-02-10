@@ -242,3 +242,62 @@ body, html {
     right: 10%;
     width: 150px;
 }
+/* =========================
+   AJUSTES SOLO PARA PC
+   ========================= */
+@media (min-width: 1024px) {
+
+    #screen1,
+    #screen2 {
+        width: 100%;
+        margin-left: 0;
+        background-size: cover;
+    }
+
+    .main-question {
+        margin-top: 5vh !important;
+        font-size: 6vh;
+    }
+
+    .buttons-container {
+        gap: 120px;
+        margin-top: 3vh;
+    }
+
+    .bottom-heart {
+        height: 450px;
+        margin-bottom: 0 !important;
+    }
+
+    /* ---------- SCREEN 2 ---------- */
+
+    #screen2 .notes-title {
+        top: 15%;
+        left: 35%;
+        font-size: 5vh;
+    }
+
+    #screen2 .title-img {
+        top: 22%;
+        right: 42%;
+        height: 35vh;
+    }
+
+    #screen2 .film-strip {
+        top: 10%;
+        left: 10%;
+        height: 70vh;
+    }
+
+    #screen2 .letter-img {
+        top: 5%;
+        right: 5%;
+        height: 95vh;
+    }
+
+    #screen2 .calendar-img {
+        bottom: 8%;
+        right: 40%;
+        height: 30vh;
+    }
+}
