@@ -272,20 +272,24 @@ body, html {
     /* ---------- SCREEN 2 ---------- */
 
     #screen2 .notes-title {
-        top: 15%;
-        left: 35%;
-        font-size: 5vh;
+        top: 22%;
+        left: 50%;
+        transform:translateX(-50%);
+        font-size: 7.5vh;
+        letter-spacing: 8px;
+        text-align: center;
     }
 
     #screen2 .title-img {
-        top: 22%;
-        right: 42%;
-        height: 35vh;
+        top: 30%;
+        right: 50%;
+        transform:translateX(-50%);
+        height: 42vh;
     }
 
     #screen2 .film-strip {
         top: 10%;
-        left: 10%;
+        left: 18%;
         height: 70vh;
     }
 
